@@ -1,0 +1,5 @@
+#!/bin/bash
+
+PATH=$PATH:/usr/local/bin
+export PATH
+python3.5 -m scrapy crawl releasecrawler3
